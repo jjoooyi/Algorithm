@@ -14,18 +14,27 @@ N개의 단어를 입력된 순서대로 한 줄에 하나씩 뒤집어서 출�
 
 import java.util.Scanner;
 
-public class Q1_04 {
-  public String solution() {
+public class Q1_04_01 {
+  public String solution(String str) {
     String answer = "";
-
+    char[] chars = str.toCharArray();
+    for (int i = chars.length; i > 0; i--) {
+      answer += chars[i - 1];
+    }
     return answer;
   }
 
   public static void main(String[] args) {
     Scanner in = new Scanner(System.in);
-    Q1_04 T = new Q1_04();
+    Q1_04_01 T = new Q1_04_01();
 
-    System.out.println(T.solution());
+    int cnt = in.nextInt();
+    in.nextLine();
+    for (int i = 0; i < cnt; i++) {
+      String x = in.nextLine();
+      System.out.println(T.solution(x));
+    }
+
     in.close();
   }
 }

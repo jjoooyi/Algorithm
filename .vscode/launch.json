@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q1_04_02",
+            "request": "launch",
+            "mainClass": "String.Q1_04_02",
+            "projectName": "Algorithm_fee9796"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1_04",
+            "request": "launch",
+            "mainClass": "String.Q1_04",
+            "projectName": "Algorithm_fee9796"
+        },
+        {
+            "type": "java",
             "name": "Launch Q1_03",
             "request": "launch",
             "mainClass": "Q1_03",
