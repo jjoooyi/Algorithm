@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
-  public int solution() {
-    int answer = 0;
+  public String solution() {
+    String answer = "";
 
     return answer;
   }
