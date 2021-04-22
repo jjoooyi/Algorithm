@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Q2_04",
+            "request": "launch",
+            "mainClass": "Array.Q2_04",
+            "projectName": "Algorithm_fee9796"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2_03",
+            "request": "launch",
+            "mainClass": "Array.Q2_03",
+            "projectName": "Algorithm_fee9796"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2_02",
+            "request": "launch",
+            "mainClass": "Array.Q2_02",
+            "projectName": "Algorithm_fee9796"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q1_12",
+            "request": "launch",
+            "mainClass": "String.Q1_12",
+            "projectName": "Algorithm_fee9796"
+        },
+        {
+            "type": "java",
+            "name": "Launch Q2_01",
+            "request": "launch",
+            "mainClass": "Array.Q2_01",
+            "projectName": "Algorithm_fee9796"
+        },
+        {
+            "type": "java",
             "name": "Launch Q1_11",
             "request": "launch",
             "mainClass": "String.Q1_11",
